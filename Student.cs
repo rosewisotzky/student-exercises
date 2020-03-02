@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace StudentExercises
 {
@@ -8,9 +9,7 @@ namespace StudentExercises
         public string LastName { get; set; }
         public string SlackHandle { get; set; }
         public int Cohort {get; set;}
-        public List<Exercises> Exercises {get; set; }
-
-
+        public List<Exercise> Exercises {get; set; }
 
     }
 

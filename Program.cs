@@ -6,7 +6,12 @@ namespace StudentExercises
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Student Exercises");
+
+            Exercise Heist = new Exercise(){
+                Id = 1;
+                
+            }
         }
     }
 }
